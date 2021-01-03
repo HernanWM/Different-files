@@ -1,0 +1,25 @@
+header {
+  background: #fff;
+}
+
+header nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  padding: 15px 20px;
+}
+
+header nav ul li a:hover {
+  background: #000000;
+  color: #fff;
+}
+/*# sourceMappingURL=header.css.map */

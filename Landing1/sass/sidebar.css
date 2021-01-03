@@ -1,0 +1,40 @@
+aside {
+  width: 30%;
+  float: left;
+  background: #161126;
+  padding: 20px;
+  color: #fff;
+}
+
+aside .widget {
+  margin-bottom: 20px;
+}
+
+aside .widget .titulo {
+  color: #ff800f;
+  border-bottom: 1px solid #ff800f;
+  margin-bottom: 10px;
+}
+
+aside .widget ul {
+  list-style: none;
+}
+
+aside .widget ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 0;
+}
+
+aside .widget ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+aside .widget ul li a:hover {
+  color: #8f8f8f;
+}
+
+aside .widget p {
+  line-height: 27px;
+}
+/*# sourceMappingURL=sidebar.css.map */

@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 1000px;
+    background: #000;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    display: inline-block;
+}
+
+
+.container .box2{
+    background: #BC9DBF;
+    width: 200px;
+    height: 400px;
+    position: relative;
+}
+
+.container .box3{
+    background: #C25392;
+    width: 120px;
+    height: 150px;
+    position: relative;
+    right: 60px;
+    bottom: 30px;   
+}
+
+.container .box1{
+    position: absolute;
+    left: 20px;
+}

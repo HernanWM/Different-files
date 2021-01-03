@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn-start">Start</button>
+    <button id="btn-detener">Detener</button>
+
+    <script>
+        //---Settimeout
+
+        function saludo(){
+            alert('Hola')
+        }
+
+        var tiempo = setTimeout(saludo, 3000);
+        clearTimeout(tiempo);
+
+        //document.getElementById('btn-start').addEventListener('click', function(){
+        //    setTimeout(saludo, 3000);
+        //});
+
+        //----setTimeout()
+
+        var intervalo = setInterval(saludo, 3000);
+        document.getElementById('btn-detener').addEventListener('click', function(){
+            clearInterval(intervalo);
+        });
+
+
+    </script>
+</body>
+</html>

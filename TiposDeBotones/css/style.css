@@ -1,0 +1,53 @@
+body{
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    margin: 20px 0;
+}
+
+.btn{
+    background: #392061;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.btn:hover{
+    opacity: .8;
+}
+
+/*TAMAÑOS*/
+
+.small{
+    font-size: 14px;
+    padding: 10px 15px;
+    background: #1A1B25;
+}
+
+.medium{
+    font-size: 15px;
+    padding: 15px 15px;
+    background: #96497A;
+}
+
+.big{
+    font-size: 16px;
+    padding: 20px 20px;
+    background: #AA6373;
+}
+
+.extra-big{
+    font-size: 18px;
+    padding: 22px 20px;
+    background: #822E81;
+}
+
+/* FORMAS*/
+
+.circle{
+    border-radius: 25px;
+}

@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+}
+
+.container {
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box {
+  height: 100px;
+  width: 100px;
+  background: #000;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box button {
+  border: none;
+}
+
+.container .box button a {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid;
+}
+
+.container .box button a:hover {
+  font-size: 20px;
+  font-size: 300;
+}
+/*# sourceMappingURL=style.css.map */

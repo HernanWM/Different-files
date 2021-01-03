@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', sans-serif;
+    font-size: 27px;
+}
+
+
+body{
+    width: 100%;
+    max-width: 1000px;
+    background:fff;
+    margin: 20px auto;
+}
+
+.container{
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+
+}
+.container ul li{
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+}
+.container ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 300;
+    font-size: 30px;
+}
+
+.container ul li:hover a{
+    color: red;
+    font-weight: 300;
+}
+
+.menu{
+    display: flex;
+}
+.menu h1{
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+}
+
+
+.sidebar{
+    width: 400px;
+    text-align: center;
+}
+.sidebar h2{
+    margin-bottom: 10px;
+}
